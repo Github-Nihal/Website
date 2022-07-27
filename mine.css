@@ -247,7 +247,7 @@ div.sec4 {
   width: 102%;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 480px) {
   body {
- background: white;
+ background-color: white;
 }
