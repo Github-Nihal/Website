@@ -1,4 +1,4 @@
-html {
+I78html {
   scroll-behavior: smooth;
 
 }
@@ -233,8 +233,7 @@ div.sec3 {
   justify-content: space-around;
   margin-left: -8px;
   width: 102%;
-}
-
+} 
 div.sec4 {
   background: rgb(134, 15, 15);
   height: 103%;
@@ -246,4 +245,9 @@ div.sec4 {
   justify-content: space-around;
   margin-left: -8px;
   width: 102%;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+ background: white;
 }
