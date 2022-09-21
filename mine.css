@@ -6,8 +6,8 @@ html {
 
 body {
   background: #01148B;
-background: linear-gradient(180deg,#01148B 0%, rgba(0,0,0,1) 72%);
- margin: 0%;
+  background: linear-gradient(180deg, #01148B 0%, rgba(0, 0, 0, 1) 72%);
+  margin: 0%;
 }
 
 p.iam {
@@ -91,11 +91,11 @@ div.sec1 {
   align-content: space-around;
   flex-wrap: wrap;
   justify-content: space-around;
-   /* Created with https://www.css-gradient.com */
-   background: #0198FF;
-   background: -webkit-radial-gradient(bottom right, #0198FF, #01148B);
-   background: -moz-radial-gradient(bottom right, #0198FF, #01148b);
-   background: radial-gradient(to top left, #0198FF, #01148B);
+  /* Created with https://www.css-gradient.com */
+  background: #0198FF;
+  background: -webkit-radial-gradient(bottom right, #0198FF, #01148B);
+  background: -moz-radial-gradient(bottom right, #0198FF, #01148b);
+  background: radial-gradient(to top left, #0198FF, #01148B);
 }
 
 
@@ -166,7 +166,7 @@ div.sec2 {
   align-content: space-around;
   flex-wrap: wrap;
   justify-content: space-around;
-  margin:0%;
+  margin: 0%;
   width: 100%;
   background: rgb(17, 17, 17);
 }
@@ -182,14 +182,86 @@ q.about {
 
 div.sec3 {
   height: 100%;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   color: white;
-  display: flex;
-  align-content: space-around;
-  flex-wrap: wrap;
-  justify-content: space-around;
+
   margin: 0%;
   width: 100%;
+}
+
+div.accounts {
+  width: 100%;
+  height: 50%;
+  z-index: 1;
+  padding-top: 12%;
+  display: flex;
+  justify-content: space-around;
+}
+
+div.insta {
+  background-image: linear-gradient(180deg, #673bce 0%, rgba(255, 4, 180, 0.87) 72%);
+  height: 90%;
+  width: 20%;
+  border-radius: 10px;
+  backdrop-filter: blur(30px) saturate(180%);
+}
+
+div.snap {
+  background-image: linear-gradient(120deg, #fffb00 0%, rgba(255, 217, 4, 0.808) 72%);
+  height: 90%;
+  width: 20%;
+  border-radius: 10px;
+  backdrop-filter: blur(30px) saturate(180%);
+}
+
+div.twitter {
+  background-image: linear-gradient(180deg, #2679e6 0%, rgba(17, 80, 253, 0.87) 72%);
+  height: 90%;
+  width: 20%;
+  border-radius: 10px;
+  backdrop-filter: blur(30px) saturate(180%);
+}
+
+div.github {
+  background-image: linear-gradient(180deg, #1e1f1c 0%, rgba(37, 39, 33, 0.87) 72%);
+  height: 90%;
+  width: 20%;
+  border-radius: 10px;
+  backdrop-filter: blur(30px) saturate(180%);
+}
+div.acnames {
+  position: absolute;
+  width: 100%;
+  height
+  top: 10px;
+}
+
+span.ignihal {
+  width: 20%;
+  position: absolute;
+  left: 10%;
+
+}
+
+span.scnihal {
+  width: 20%;
+  position: absolute;
+  left: 35%;
+
+}
+
+span.twnihal {
+  width: 20%;
+  position: absolute;
+  left: 60%;
+
+}
+
+span.gitnihal {
+  width: 20%;
+  position: absolute;
+  left: 84%;
+
 }
 
 div.sec4 {
@@ -200,7 +272,7 @@ div.sec4 {
   align-content: space-around;
   flex-wrap: wrap;
   justify-content: space-around;
-  margin:0%;
+  margin: 0%;
   width: 100%;
 }
 
