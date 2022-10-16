@@ -201,7 +201,7 @@ div.accounts {
 div.insta {
   background-image: linear-gradient(180deg, #673bce 0%, rgba(255, 4, 180, 0.87) 72%);
   height: 90%;
-  width: 20%;
+  width: 100%;
   border-radius: 10px;
   backdrop-filter: blur(30px) saturate(180%);
 }
@@ -209,7 +209,7 @@ div.insta {
 div.snap {
   background-image: linear-gradient(120deg, #fffb00 0%, rgba(255, 217, 4, 0.808) 72%);
   height: 90%;
-  width: 20%;
+  width: 100%;
   border-radius: 10px;
   backdrop-filter: blur(30px) saturate(180%);
 }
@@ -217,7 +217,7 @@ div.snap {
 div.twitter {
   background-image: linear-gradient(180deg, #2679e6 0%, rgba(17, 80, 253, 0.87) 72%);
   height: 90%;
-  width: 20%;
+  width: 100%;
   border-radius: 10px;
   backdrop-filter: blur(30px) saturate(180%);
 }
@@ -225,9 +225,14 @@ div.twitter {
 div.github {
   background-image: linear-gradient(180deg, #1e1f1c 0%, rgba(37, 39, 33, 0.87) 72%);
   height: 90%;
-  width: 20%;
+  width: 100%;
   border-radius: 10px;
   backdrop-filter: blur(30px) saturate(180%);
+}
+a.social {
+  height: 90%;
+  width: 20%;
+  border-radius: 10px;
 }
 div.acnames {
   position: absolute;
